@@ -8,20 +8,30 @@ npm (Node Package Manager) or yarn
 
 ## Getting Started
 
-Clone this repository to your local machine:
+1. Clone this repository to your local machine:
+https://github.com/Mohitk786/Go_India_Stock.git
 
+2. Navigate into the project directory:
+cd Go_India_Stock
 
-First, run the development server:
+3. Install dependencies:
 
-```bash
+npm install 
+#or
+yarn install
+#or
+pnpm install
+
+## run the development server:
+
 npm run dev
-# or
+#or
 yarn dev
-# or
+#or
 pnpm dev
-# or
+#or
 bun dev
-```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
