@@ -1,0 +1,27 @@
+.sideNavContainer {
+    position: relative;
+  }
+  
+  .buttonContainer {
+    position: fixed;
+    left: 0;
+    top: 45%;
+    transition: left 2s ease;
+  }
+  
+  .buttonContainer.open {
+    left: 20%; /* Same width as the sideNav */
+  }
+  
+  .sideNav {
+    position: fixed;
+    left: -20%; /* Hide the SideNav off-screen by default */
+    top: 0;
+    height: 100%;
+    transition: left 2s ease;
+  }
+  
+  .sideNav.open {
+    left: 0;
+  }
+  
